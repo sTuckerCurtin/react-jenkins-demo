@@ -26,7 +26,7 @@ pipeline {
                     echo "Dockerizing the application.."
                     docker --version
                     docker images
-                    docker build -t tucker245/react-jenkins-docker:latest
+                    docker build -t tucker245/react-jenkins-docker:latest .
                     docker images
                 '''
             }
